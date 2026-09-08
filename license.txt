@@ -1,0 +1,130 @@
+INGCHIPS LICENSE STATEMENT AND LIMITED WARRANTY 
+
+This license statement and limited warranty constitutes a legal
+agreement ("License Agreement") between you (either as an
+individual or a single entity) and INGCHIPS Technology Co., Ltd.
+("INGCHIPS") for the software product ("Software") identified
+above, including any software, media, and accompanying on-line or
+printed documentation. 
+
+    BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE, YOU
+AGREE TO BE BOUND BY ALL OF THE TERMS AND CONDITIONS OF THE
+LICENSE AGREEMENT.  Upon your acceptance of the terms and
+conditions of the License Agreement, INGCHIPS grants you the
+right to use the Software in the manner provided below. 
+
+    This Software is owned by INGCHIPS and is protected by
+copyright law and international copyright treaty. Therefore, you
+must treat this Software like any other copyrighted material
+(e.g., a book), except that you may either make one copy of the
+Software solely for backup or archival purposes or transfer the
+Software to a single hard disk provided you keep the original
+solely for backup or archival purposes. 
+
+    You may transfer the Software and documentation on a
+permanent basis provided you retain no copies and the recipient
+agrees to the terms of the License Agreement. Except as provided
+in the License Agreement, you may not transfer, rent, lease,
+lend, copy, modify, translate, sublicense, time-share or
+electronically transmit or receive the Software, media or
+documentation.  You acknowledge that the Software in source code
+form remains a confidential trade secret of INGCHIPS and
+therefore you agree not to modify the Software or attempt to
+reverse engineer, decompile, or disassemble the Software, except
+and only to the extent that such activity is expressly permitted
+by applicable law notwithstanding this limitation. 
+
+    If you have purchased an upgrade version of the Software, it
+constitutes a single product with the INGCHIPS software that you
+upgraded. You may use the upgrade version of the Software only in
+accordance with the License Agreement. 
+
+    LIMITED WARRANTY 
+
+    Except with respect to the Redistributables, which are
+provided "as is," without warranty of any kind, INGCHIPS warrants
+that the Software, as updated and when properly used, will
+perform substantially in accordance with the accompanying
+documentation, and the Software media will be free from defects
+in materials and workmanship, for a period of ninety (90) days
+from the date of receipt.  Any implied warranties on the Software
+are limited to ninety (90) days. 
+
+    INGCHIPS's and its suppliers' entire liability and your
+exclusive remedy shall be, at INGCHIPS option, either (a) return
+of the price paid, or (b) repair or replacement of the Software
+that does not meet INGCHIPS Limited Warranty and which is
+returned to INGCHIPS with a copy of your receipt. DO NOT RETURN
+ANY PRODUCT UNTIL YOU HAVE CALLED INGCHIPS AND OBTAINED A RETURN
+AUTHORIZATION NUMBER. This Limited Warranty is void if failure of
+the Software has resulted from accident, abuse, or
+misapplication. Any replacement Software will be warranted for
+the remainder of the original warranty period or thirty (30)
+days, whichever is longer.  
+
+    TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, INGCHIPS
+AND ITS SUPPLIERS DISCLAIM ALL OTHER WARRANTIES AND CONDITIONS,
+EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+TITLE, AND NON-INFRINGEMENT, WITH REGARD TO THE SOFTWARE, AND THE
+PROVISION OF OR FAILURE TO PROVIDE SUPPORT SERVICES. 
+
+    LIMITATION OF LIABILITY TO THE MAXIMUM EXTENT PERMITTED BY
+APPLICABLE LAW, IN NO EVENT SHALL INGCHIPS OR ITS SUPPLIERS BE
+LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL
+DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR
+LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS
+INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE
+OF OR INABILITY TO USE THE SOFTWARE PRODUCT OR THE PROVISION OF
+OR FAILURE TO PROVIDE SUPPORT SERVICES, EVEN IF INGCHIPS HAS BEEN
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ANY CASE,
+INGCHIPS's ENTIRE LIABILITY UNDER ANY PROVISION OF THIS LICENSE
+AGREEMENT SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR
+THE SOFTWARE PRODUCT PROVIDED, HOWEVER, IF YOU HAVE ENTERED INTO
+A INGCHIPS SUPPORT SERVICES AGREEMENT, INGCHIPS's ENTIRE
+LIABILITY REGARDING SUPPORT SERVICES SHALL BE GOVERNED BY THE
+TERMS OF THAT AGREEMENT. 
+
+    HIGH RISK ACTIVITIES
+
+    The Software is not fault-tolerant and is not designed,
+manufactured or intended for use or resale as on-line control
+equipment in hazardous environments requiring fail-safe
+performance, such as in the operation of nuclear facilities,
+aircraft navigation or communication systems, air traffic
+control, direct life support machines, or weapons systems, in
+which the failure of the Software could lead directly to death,
+personal injury, or severe physical or environmental damage
+("High Risk Activities"). INGCHIPS and its suppliers specifically
+disclaim any express or implied warranty of fitness for High Risk
+Activities. 
+
+    GENERAL PROVISIONS
+
+    This statement may only be modified in writing signed by you
+and an authorised officer of INGCHIPS. If any provision of this
+statement is found void or unenforceable, the remainder will
+remain valid and enforceable according to its terms.  If any
+remedy provided is determined to have failed for its essential
+purpose, all limitations of liability and exclusions of damages
+set forth in the Limited Warranty shall remain in effect.  This
+statement shall be construed, interpreted and governed by the
+laws of England.  This statement gives you specific legal rights;
+you may have others, which vary, from country to country.
+INGCHIPS reserves all rights not specifically granted in this
+statement. 
+
+
+    ADDITIONAL SOFTWARE
+
+This sofware contains FreeRTOS compiled binaries & header files
+under MIT Open Source License. 
+
+This sofware contains GNU Make binary distribution under License
+GPLv3+: GNU GPL version 3 or later
+<http://gnu.org/licenses/gpl.html>. Source code and build
+instructions can be found on <http://mingw.org/>.
+
+This sofware contains Arm CMSIS under under BSD or zlib license.
+The detailed license agreement for CMSIS can be found here:
+<https://github.com/ARM-software/CMSIS/blob/master/CMSIS/CMSIS_END_USER_LICENCE_AGREEMENT.pdf>.
