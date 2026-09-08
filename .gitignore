@@ -1,0 +1,31 @@
+output/
+listing/
+RTE/
+*.dep
+*.uvgui.*
+*.uvguix.*
+
+/.vscode
+logs
+/05-About
+*log.txt
+.vscode
+
+*.un~
+*.swp
+*.bak
+JLink*
+
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+all.log
+setting.ini
