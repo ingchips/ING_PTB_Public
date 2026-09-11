@@ -1,2 +1,2 @@
-"tune":0xFF
+"tune":0x1D
 "swd_spi_sclkdiv":0xFF

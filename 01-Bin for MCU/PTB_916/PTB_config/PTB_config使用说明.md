@@ -14,20 +14,24 @@
     SPI_2M  = 0x05,
 */
 typedef struct{
-	uint8_t tune；              // 为 PTB 自身的频偏校准值，范围0x00 - 0x3F，大于 0x3F 的值无效
+	uint8_t tune；              // 为 PTB 自身的频偏校准值，范围0x00 - 0x3F，默认值为 0x1D，大于 0x3F 的值无效
 	uint8_t swd_spi_sclkdiv;    // spi 的分频系数，对应的通信频率见上面注释
 	uint16_t crc;
 } ptb_config_t;
 ```
+
+一定要烧录配置文件，如果未烧录 `PTB_config.bin` 或者 `tune` 值无效，PTB 则会亮起所有 LED，不工作。
+如果是硬件校准频偏，916 的 `tune` 使用默认值 `0x1D` 即可。
+
 # 使用方法
 
 `PTB_config.txt` 文件里面简写了配置项，可以通过文本来修改这些值
 ```
-"tune":0xff
-"swd_spi_sclkdiv":0xff
+"tune":0x1D
+"swd_spi_sclkdiv":0xFF
 ```
 
-然后通过脚本生成 bin 文件，bin 文件烧录到 0x207F000 的位置，PTB 的代码上电会读取这个地址的配置，然后根据配置进行初始化。如果没有配置文件，使用默认配置。
+然后通过脚本生成 bin 文件，bin 文件烧录到 0x207F000 的位置，PTB 的代码上电会读取这个地址的配置，然后根据配置进行初始化。如果没有烧录配置文件，或者 tune 值无效，PTB 则会亮起所有 LED，不工作。
 
 ## powershell 使用方式：
 默认执行：
